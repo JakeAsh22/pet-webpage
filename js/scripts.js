@@ -1,0 +1,12 @@
+$(document).ready(function()
+{
+  $("button#lightOnDark").click(function()
+    {
+      $("body").removeClass();
+      $("body").addClass("black-background")
+    });
+  $("button#default").click(function()
+  {
+    $("body").removeClass();
+  });
+});
